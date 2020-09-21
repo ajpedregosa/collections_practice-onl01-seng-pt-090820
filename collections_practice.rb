@@ -5,7 +5,7 @@ end
 
 
 def sort_array_desc (array)
-  array.sort {|x,y| y <=> x }
+  array.sort.reverse
 end
 
 
